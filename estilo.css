@@ -1,0 +1,116 @@
+/* PALETA DE COLORES
+
+VERDE AGUA: #3B8EA5
+#F5EE9E
+#F49E4C
+#AB3428
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+.header-flex{
+    background-color: #2D728F;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header-flex a{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.header-flex ul{
+    display: flex;
+    list-style: none;
+    align-items:flex-start;
+}
+
+.header-flex li{
+    margin: 0.3rem;
+}
+
+.banner-hero{
+    background-image: url('https://media.istockphoto.com/id/545251292/es/foto/patr%C3%B3n-de-corte-en-el-taller-de-costura.jpg?s=612x612&w=0&k=20&c=PUqOPllmK3SvQdcvsA3I3vOkkYZp5mfyCdVbqnb-sfk=');
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a {
+    color: darkturquoise;
+    text-decoration: solid;
+}
+
+.introduccion__texto {
+    font-size: 22px;
+    color: rgb(139, 66, 207);
+}
+
+.introduccion__titulo {
+    font-size: 28px;
+    text-decoration-line: underline;
+}
+
+.costura {
+    width: 800px;
+    height: 540px;
+}
+
+.egresos {
+    width: 800px;
+}
+
+.intro__texto {
+    font-size: 20px;
+    color: mediumblue;
+}
+
+.intro__titulo {
+    font-size: 28px;
+    text-decoration-line: underline;
+}
+
+.servicios__items {
+    font-size: 35px;
+    text-decoration-line: underline;
+    color: deeppink;
+}
+
+.header__listaMenu--activo {
+    font-weight: bolder;
+    text-decoration-line: underline;
+}
+
+.introduccion__texto {
+    width: 600px;
+}
+
+.introduccion__titulo {
+    width: 1000px;
+}
+
+.intro__texto {
+    width: 1000px;
+    border: 3px coral dashed;
+    padding: 20px 10px 20px;
+    margin: 40px;
+}
+
+.egresos {
+    position: absolute;
+    top: 290px;
+    height: 550px;
+    width: 500px;
+}
